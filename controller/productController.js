@@ -77,3 +77,5 @@ const deleteProduct = (req, res) => {
         return res.json(products);
     }
 }
+
+module.exports = { getProduct, getSpecificProduct, createProduct, updateProduct, deleteProduct }
